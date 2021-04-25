@@ -1,4 +1,6 @@
- class Main {
+import org.w3c.dom.ls.LSOutput;
+
+class Main {
  }
      class Person
 
@@ -135,5 +137,7 @@
         {
             System.out.println("false7");
         }
+        System.out.println("Zomaar iets");
     }
+
 }
