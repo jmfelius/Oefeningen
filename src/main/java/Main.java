@@ -81,5 +81,59 @@
         {
             System.out.println("false7");
         }
+
+        /** Ander naam voor Mohamed, maar dan dus ook voor Henk*/
+
+        mohamed.name =  "Klaas";
+
+        if (mohamed == henk)
+        {
+            System.out.println("True1");
+        }
+        else
+        {
+            System.out.println("false1");
+        }
+        if (mohamed.equals(henk))
+        {
+            System.out.println("True2");
+        }
+        else
+        {
+            System.out.println("false2");
+        }
+        if (mohamed.name.equals(henk.name))
+        {
+            System.out.println("True3");
+        }
+        mohamed = henk;
+        if (mohamed == henk)
+        {
+            System.out.println("True4");
+        }
+        else
+        {
+            System.out.println("false4");
+        }
+        if (mohamed.equals(henk))
+        {
+            System.out.println("True5");
+        }
+        else
+        {
+            System.out.println("false5");
+        }
+        if (mohamed.name.equals(henk.name))
+        {
+            System.out.println("True6");
+        }
+        if (mohamed.name == henk.name)
+        {
+            System.out.println("True7");
+        }
+        else
+        {
+            System.out.println("false7");
+        }
     }
 }
